@@ -12,7 +12,6 @@ int main() {
 	unsigned short a =  256 ;
 
 
-
 	Byte L[3] = {0};
 
 	L[0] = cpu.PC;

@@ -128,9 +128,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Src\6502.h" />
+    <ClInclude Include="Src\CPU.h" />
+    <ClInclude Include="Src\LDA.h" />
+    <ClInclude Include="Src\Mem.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\6502.cpp" />
+    <ClCompile Include="Src\CPU.cpp" />
+    <ClCompile Include="Src\LDA.cpp" />
+    <ClCompile Include="Src\Mem.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
